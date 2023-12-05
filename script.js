@@ -41,7 +41,7 @@ async function searchBand() {
 
 document.getElementById("input").addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
-      event.preventDefault(); // Evita o comportamento padrão de submissão do formulário
-      searchBand(); // Chama a função de busca quando "Enter" é pressionado
+      event.preventDefault();
+      searchBand(); 
     }
   });
